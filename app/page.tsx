@@ -192,6 +192,14 @@ export default function PortfolioPage() {
                     link: "https://yusufpedia.id",
                     tech: ["Laravel", "Filament", "SQL"],
                   },
+                  {
+                    title: "HONDA SALES",
+                    image: "/honda-sales-website.png",
+                    description:
+                      "Honda Sales Website adalah sebuah platform portfolio profesional yang dirancang khusus untuk membantu Sales Executive Honda di wilayah Bangka Belitung (Babel) dalam meningkatkan performa penjualan kendaraan Honda. Website ini berfungsi sebagai alat pemasaran digital yang memamerkan kredibilitas, pengalaman, dan prestasi sales dalam membantu pelanggan menemukan kendaraan Honda yang tepat.",
+                    link: "https://honda-sales-website.vercel.app",
+                    tech: ["Next"],
+                  },
                 ].map((project, i) => (
                   <div
                     key={i}
